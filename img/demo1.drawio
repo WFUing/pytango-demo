@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-04-08T05:49:03.115Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="KYiD0QJNOq1mc-9DT-uD" version="24.2.2" type="device">
+  <diagram name="第 1 页" id="r3QqYT14Ph4mkGDYXgvo">
+    <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-1" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-2" value="" style="image;html=1;image=img/lib/clip_art/networking/Ip_Camera_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="140" y="240" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="100" width="77" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="iyWnWklVfBxlOzWFZIsM-2" target="iyWnWklVfBxlOzWFZIsM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="440" as="sourcePoint" />
+            <mxPoint x="340" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="iyWnWklVfBxlOzWFZIsM-1" target="iyWnWklVfBxlOzWFZIsM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="400" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.management_console;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.635;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.351;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iyWnWklVfBxlOzWFZIsM-8" target="iyWnWklVfBxlOzWFZIsM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="320" as="sourcePoint" />
+            <mxPoint x="460" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iyWnWklVfBxlOzWFZIsM-3" target="iyWnWklVfBxlOzWFZIsM-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="371" as="sourcePoint" />
+            <mxPoint x="594" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.035;entryY=0.035;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="iyWnWklVfBxlOzWFZIsM-1" target="iyWnWklVfBxlOzWFZIsM-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249" y="270" as="sourcePoint" />
+            <mxPoint x="433" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyWnWklVfBxlOzWFZIsM-8" target="iyWnWklVfBxlOzWFZIsM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="370" as="sourcePoint" />
+            <mxPoint x="507" y="212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-16" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;3. 查询camera的ior&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-17" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;1. 注册camera server，绑定device class&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-19" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;4. 返回camera的ior&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="103" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-20" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;5. 发送请求&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-21" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;2. 开启camera server&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-25" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;若配置事件，server会创建&lt;br&gt;ZMQ socket监听特定端口。&lt;br&gt;若事件变化，向所有订阅了&lt;br&gt;该事件的客户端广播。&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="61" y="165" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="iyWnWklVfBxlOzWFZIsM-26" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;客户端可以订阅特定事件&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321.5" y="420" width="160" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
